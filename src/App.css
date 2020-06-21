@@ -1,0 +1,26 @@
+.app{
+  height: auto;
+  margin: 0;
+  align-items: center;
+  /* display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;  */
+  box-sizing: border-box;
+  @media screen and (max-width:600px) {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+}
+body{
+  background-color: #1D0303;
+}
+
+.particles{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
