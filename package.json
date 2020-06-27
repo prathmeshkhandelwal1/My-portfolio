@@ -15,7 +15,8 @@
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "surge": "^0.21.3"
   },
   "scripts": {
     "start": "react-scripts start",

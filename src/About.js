@@ -20,7 +20,7 @@ function About() {
                 <Fade right>
                 <h2 className="about__title">Anime</h2>
                 <div className="about__box__container">
-                    <img className="about__box__container__image " src="media/program.jpg"/>
+                    <img className="about__box__container__image " alt="img" src="media/program.jpg"/>
                     <p className="about__box__container__p ">Fugiat ut ad velit exercitation laboris deserunt veniam dolore aliquip veniam. Duis anim amet incididunt voluptate amet commodo exercitation irure minim veniam excepteur consectetur ea. Qui ipsum non eu nisi non velit. Irure consequat ad tempor ipsum Lorem dolore culpa laboris officia. Qui aliqua culpa dolor consequat deserunt eu sint dolore id duis aute eiusmod mollit incididunt. Fugiat tempor incididunt in esse consequat ullamco enim cillum officia id veniam velit. Elit mollit ea Lorem velit officia cillum ex velit nisi aliquip nulla ex.</p>
                 </div>
                 </Fade>
@@ -28,13 +28,13 @@ function About() {
                 <h2 className="about__title">Anime</h2>
                 <div className="about__box__container">
                     <p className="about__box__container__p ">Fugiat ut ad velit exercitation laboris deserunt veniam dolore aliquip veniam. Duis anim amet incididunt voluptate amet commodo exercitation irure minim veniam excepteur consectetur ea. Qui ipsum non eu nisi non velit. Irure consequat ad tempor ipsum Lorem dolore culpa laboris officia. Qui aliqua culpa dolor consequat deserunt eu sint dolore id duis aute eiusmod mollit incididunt. Fugiat tempor incididunt in esse consequat ullamco enim cillum officia id veniam velit. Elit mollit ea Lorem velit officia cillum ex velit nisi aliquip nulla ex.</p>
-                    <img className="about__box__container__image " src="media/download.png"/>
+                    <img className="about__box__container__image" alt="img" src="media/download.png"/>
                 </div>
                 </Fade>
                 <Fade right>
                 <h2 className="about__title">Anime</h2>
                 <div className="about__box__container">
-                    <img className="about__box__container__image " src="media/download.png"/>
+                    <img className="about__box__container__image " alt="img" src="media/download.png"/>
                     <p className="about__box__container__p ">Fugiat ut ad velit exercitation laboris deserunt veniam dolore aliquip veniam. Duis anim amet incididunt voluptate amet commodo exercitation irure minim veniam excepteur consectetur ea. Qui ipsum non eu nisi non velit. Irure consequat ad tempor ipsum Lorem dolore culpa laboris officia. Qui aliqua culpa dolor consequat deserunt eu sint dolore id duis aute eiusmod mollit incididunt. Fugiat tempor incididunt in esse consequat ullamco enim cillum officia id veniam velit. Elit mollit ea Lorem velit officia cillum ex velit nisi aliquip nulla ex.</p>
                 </div>
                 </Fade>
