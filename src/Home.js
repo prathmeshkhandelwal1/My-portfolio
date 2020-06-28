@@ -19,7 +19,7 @@ function Home() {
             
             <div className="home__container">
                 <img className="home__container__image" alt="" src="media/Prathmesh.jpg"/>
-                <p className="home__container__para">Lorem ipsumaskjbdfajsdvbsjdbajbdvavbadfd sdkcbca sv vavsdnvnkasndvlasdvsakdvnnasv skdfnlasdklksvlaksvnldsdvm</p>
+                <p className="home__container__para" >Hey! I'm Prathmesh. A full stack web developer and a software engineer who is passionate about learning new tech things in general.</p>
             </div>
         </div>
     )
