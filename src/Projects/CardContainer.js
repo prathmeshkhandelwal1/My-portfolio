@@ -34,7 +34,7 @@ class CardContainer extends Component {
     render() {
         const projects = this.state.list1? this.state.list1.map(project=>{
             if(!project.fork){
-                return <Fade left><Card name={project.name} description={project.description} stars = {project.stargazers_count}/></Fade>
+                return <Fade left><a href={project.html_url} target=" "><Card name={project.name} description={project.description} stars = {project.stargazers_count}/></a></Fade>
             }else{
                 return null
             }
@@ -43,7 +43,7 @@ class CardContainer extends Component {
 
         const projects2 = this.state.list2? this.state.list2.map(project=>{
             if(project.name ==='cerebro-web-2020')
-            return <Fade left><Card name={project.name} description={project.description} stars = {project.stargazers_count}/></Fade>
+            return <Fade left><a href={project.html_url} target=" "><Card name={project.name} description={project.description} stars = {project.stargazers_count}/></a></Fade>
             else{
                 return null
             }
