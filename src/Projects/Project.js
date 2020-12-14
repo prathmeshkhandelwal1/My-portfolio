@@ -1,14 +1,14 @@
 import React from 'react'
 // import './About.scss'
-import Fade from 'react-reveal/Fade'
+import CardContainer from './CardContainer'
+import './Project.scss'
 
 function About() {
 
     return (
-        <div className="about">
-            <h1>Projects</h1>
-            Under maintainance            
-            
+        <div className="projects">          
+            <h1 className="about__head">Projects</h1>
+            <CardContainer/>
         </div>
     )
 }

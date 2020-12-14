@@ -1,14 +1,29 @@
+
+
 .card{
     position: relative;
-    width: 200px;
-    height: 250px;
-    background-color: #4d0000;
-    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    background-color: #310c0c;
+    border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 0px 2px 3px black;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,.1);
+    padding: 10px 20px;
+    text-align: center;
     flex-flow: column;
+    margin: 20px;
+    cursor: pointer;
+    // animation: Left 0.5s;
+    transition: all .25s;
+
+    &__title{
+        color: gray;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        // font-weight: 300;
+    }
+    &__p{
+        display: contents;
+        color: gray;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 }

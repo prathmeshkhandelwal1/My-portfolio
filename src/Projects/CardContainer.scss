@@ -1,0 +1,16 @@
+.Card_container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    &__list{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}

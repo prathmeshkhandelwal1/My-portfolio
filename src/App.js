@@ -6,7 +6,6 @@ import Footer from './Footer/Footer';
 import About from './About/About';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Project from './Projects/Project';
-import Card from './Projects/Card';
 
 
 
@@ -34,18 +33,18 @@ class App extends Component {
     }
     
     return(
-        // <Router>
-        //   <div className="app" onClick={this.colorChange}  style={{
-        //     "backgroundColor": this.state.color ? '#1D0303' : '#070F2C'
-        //   }}>
-        //   <Nav/>
-        //   <Route path="/" exact component={Home} onClick={this.colorChange}/>
-        //   <Route path="/about" component={About}/>
-        //   <Route path="/projects" component = {Project}/>
-        //   <Footer/>
-        //   </div>
-        // </Router>
-        <Card/>
+        <Router>
+          <div className="app" onClick={this.colorChange}  style={{
+            "backgroundColor": '#1D0303'
+          }}>
+          <Nav/>
+          <Route path="/" exact component={Home} onClick={this.colorChange}/>
+          <Route path="/about" component={About}/>
+          <Route path="/projects" component = {Project}/>
+          <Footer/>
+          </div>
+        </Router>
+        
     )
   }
 }
