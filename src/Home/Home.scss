@@ -3,40 +3,41 @@
         opacity: 0;
         transform: translateX(-100px);
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0);
     }
 }
 @keyframes Right {
     0% {
-       opacity: 0;
-       transform: translateX(100px);
+        opacity: 0;
+        transform: translateX(100px);
     }
     100% {
-       opacity: 1;
-       transform: translateX(0);
+        opacity: 1;
+        transform: translateX(0);
     }
- } 
-.home{
+}
+.home {
     display: flex;
-    flex-flow: column ;
+    flex-flow: column;
     width: 90%;
     height: 90%;
-    @media screen and (max-width:600px){
+    @media screen and (max-width: 600px) {
         width: 100%;
-        height: auto;
+        // height: auto;
         box-sizing: border-box;
         padding: 25px;
+        min-height: 600px;
     }
-    &__box{
+    &__box {
         padding-left: 40px;
         display: flex;
         width: 90%;
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        @media screen and (max-width:600px){
+        @media screen and (max-width: 600px) {
             display: flex;
             flex-flow: column;
             width: 100%;
@@ -46,56 +47,54 @@
             margin-top: 50px;
             padding: 0;
         }
-        &__head{
+        &__head {
             margin: 0;
             color: #707070;
             text-transform: uppercase;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            animation: Left .3s ;
-            @media screen and (max-width:600px){
-               font-size: 20px;
-               margin: 0;
-               padding: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            animation: Left 0.3s;
+            @media screen and (max-width: 600px) {
+                font-size: 20px;
+                margin: 0;
+                padding: 0;
             }
         }
-        &__head:hover{
+        &__head:hover {
             color: white;
             cursor: pointer;
             transition: all 0.5s;
         }
-        &__list{
-            list-style:none;
+        &__list {
+            list-style: none;
             display: flex;
             padding: 0;
             align-items: center;
-            animation: Left .5s ;
-            &__element{
+            animation: Left 0.5s;
+            &__element {
                 margin-top: 0;
                 margin-left: 20px;
-                @media screen and (max-width:600px){
+                @media screen and (max-width: 600px) {
                     margin-left: 0px;
                     margin: 8px;
-                 }
-                &__image{
+                }
+                &__image {
                     width: 28px;
                     height: 28px;
-                    @media screen and (max-width:600px){
+                    @media screen and (max-width: 600px) {
                         width: 20px;
                         height: 20px;
-                       
                     }
                 }
             }
-            &__element:hover{
+            &__element:hover {
                 transform: rotate(360deg);
                 transition: all 0.5s;
                 cursor: pointer;
             }
         }
     }
-    
-   
-    &__container{
+
+    &__container {
         padding: 30px;
         display: flex;
         justify-content: space-evenly;
@@ -113,33 +112,30 @@
             align-items: center;
             width: 100%;
             box-sizing: border-box;
-
-        }    
-        &__image{
+        }
+        &__image {
             height: 300px;
             width: 40%x;
             border-radius: 500px;
-            @media screen and (max-width:600px){
+            @media screen and (max-width: 600px) {
                 width: 150px;
                 height: 150px;
                 margin-bottom: 15px;
                 padding: 0;
             }
-          
         }
-        &__image:hover{
+        &__image:hover {
             transform: scale(1.1);
             transition: 0.5s all;
             filter: blur(0px);
-            
         }
-        &__para{
+        &__para {
             width: 40%;
             color: #707070;
             display: flex;
             align-items: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            @media screen and (max-width:600px){
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            @media screen and (max-width: 600px) {
                 width: 80%;
                 height: auto;
                 margin-top: 25px;

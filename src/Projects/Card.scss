@@ -1,29 +1,27 @@
-
-
-.card{
+.card {
     position: relative;
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     background-color: #310c0c;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: 0 12px 30px rgba(0,0,0,.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
     padding: 10px 20px;
     text-align: center;
     flex-flow: column;
     margin: 20px;
     cursor: pointer;
     // animation: Left 0.5s;
-    transition: all .25s;
+    transition: all 0.25s;
 
-    &__title{
+    &__title {
         color: gray;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         // font-weight: 300;
     }
-    &__p{
+    &__p {
         display: contents;
         color: gray;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
 }

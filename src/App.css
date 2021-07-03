@@ -1,22 +1,25 @@
-.app{
+.app {
   height: auto;
   margin: 0;
   align-items: center;
+  height: 100vh;
   /* display: flex;
   flex-flow: column;
   justify-content: space-evenly;  */
   box-sizing: border-box;
+
   @media screen and (max-width:600px) {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
-body{
+
+body {
   background-color: #1D0303;
 }
 
-.particles{
+.particles {
   position: fixed;
   top: 0;
   left: 0;

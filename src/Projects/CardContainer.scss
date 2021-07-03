@@ -1,12 +1,12 @@
-.Card_container{
+.Card_container {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    // width: 80%;
     box-sizing: border-box;
     padding: 20px;
-    &__list{
+    &__list {
         display: flex;
         // align-items: center;
         justify-content: center;
